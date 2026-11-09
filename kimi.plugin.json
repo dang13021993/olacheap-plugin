@@ -1,0 +1,31 @@
+{
+  "name": "olacheap",
+  "version": "1.0.0",
+  "description": "OlaCheap: domains, business email, hosting and VPS. Connects to the OlaCheap MCP server, which requires sign-in with an OlaCheap account or a personal API key.",
+  "keywords": [
+    "domains",
+    "business-email",
+    "web-hosting",
+    "vps",
+    "mcp"
+  ],
+  "author": {
+    "name": "OlaCheap",
+    "email": "support@olacheap.com"
+  },
+  "homepage": "https://olacheap.com",
+  "license": "MIT",
+  "interface": {
+    "displayName": "OlaCheap",
+    "shortDescription": "OlaCheap MCP server for domains, business email, hosting and VPS",
+    "longDescription": "Connects to the OlaCheap MCP server (https://olacheap.com/api/mcp). The server requires sign-in with an OlaCheap account (OAuth) or a personal API key. The tools are listed by the server after sign-in.",
+    "developerName": "OlaCheap",
+    "websiteURL": "https://olacheap.com"
+  },
+  "skills": "./skills/",
+  "mcpServers": {
+    "olacheap": {
+      "url": "https://olacheap.com/api/mcp"
+    }
+  }
+}

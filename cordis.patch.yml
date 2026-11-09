@@ -1,0 +1,9 @@
+- insert:
+    - id: olacheap-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: olacheap
+        transport: streamable-http
+        url: https://olacheap.com/api/mcp
+        toolCallTimeoutMs: 30000
+        failOnStartupError: true

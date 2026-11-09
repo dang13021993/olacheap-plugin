@@ -1,0 +1,33 @@
+{
+  "name": "olacheap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OlaCheap: domains, business email, hosting and VPS. Connects to the OlaCheap MCP server, which requires sign-in with an OlaCheap account or a personal API key.",
+  "license": "MIT",
+  "homepage": "https://olacheap.com",
+  "author": "OlaCheap <support@olacheap.com>",
+  "keywords": [
+    "dsh",
+    "domains",
+    "business-email",
+    "web-hosting",
+    "vps",
+    "mcp"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
