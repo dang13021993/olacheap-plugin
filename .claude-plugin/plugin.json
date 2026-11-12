@@ -14,5 +14,7 @@
     "web-hosting",
     "vps",
     "mcp"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://olacheap.com/legal/privacy"
 }
